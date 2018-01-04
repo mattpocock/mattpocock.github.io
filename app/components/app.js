@@ -106,7 +106,7 @@ export class App extends React.Component {
                             image: ""
                         },
                         {
-                            title: "Coming Soon: AccentLab 2.0",
+                            title: "Soon:    AccentLab 2.0",
                             desc: "This was my first ever project. As such, it got a bit sloppy. Currently refactoring the entire site to meet ES6 standards.",
                             image: ""
                         }

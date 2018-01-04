@@ -135,7 +135,7 @@ body {
 .portfolio__header {
     padding: 60px 0px 120px 0px;
 
-    @media only screen and (max-width: $sm) {
+    @media only screen and (max-width: $md) {
         padding: 60px 0px 60px 0px;
     }
 
@@ -174,7 +174,7 @@ body {
     text-align: center;
     margin: 0;
 
-    @media only screen and (max-width: $sm) {
+    @media only screen and (max-width: $md) {
         padding: 20px 0px;
     }
 
@@ -189,7 +189,7 @@ body {
         span {
             color: white;
         }
-        @media only screen and (max-width: $sm) {
+        @media only screen and (max-width: $md) {
             margin: 0px 5px;
         }
     }
@@ -217,7 +217,7 @@ body {
         line-height: 20px;
     }
 
-    @media only screen and (max-width: $sm) {
+    @media only screen and (max-width: $md) {
         margin-bottom: 20px;
     }
 }
