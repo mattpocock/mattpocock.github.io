@@ -18520,7 +18520,7 @@ class Bio extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "p",
                     null,
-                    "My name's Matt. I'm a conscientious, user-focused developer with exceptional communication skills. I've got skills in Javascript, jQuery, SASS, HTML5 and Wordpress, and I'm looking for a full-time role at a junior level."
+                    "My name's Matt. I'm a conscientious, user-focused developer with exceptional communication. I've got skills in Javascript, jQuery, SASS, HTML5 and Wordpress, and I'm looking for a full-time role at a junior level."
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "p",
@@ -18536,11 +18536,6 @@ class Bio extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                     "p",
                     null,
                     "I hold a Masters in Voice (Distinction) from Guildford School of Acting, and a 1:1 Drama BA from Exeter University."
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "p",
-                    null,
-                    "I found joy in teaching from communicating difficult ideas in simple terms, and good design always starts with good communication."
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "p",
