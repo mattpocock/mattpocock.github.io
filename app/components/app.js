@@ -87,7 +87,7 @@ export class App extends React.Component {
                         "/img/crackapack3.JPG",
                         "/img/crackapack2.JPG"
                     ],
-                    separate: false,
+                    separate: true,
                     tags: [
                         "Node.JS",
                         "ReactJS",

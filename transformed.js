@@ -18355,7 +18355,7 @@ class App extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
                 title: "Crack A Pack",
                 desc: "A booster simulator for the Magic: The Gathering community",
                 imageArr: ["/img/crackapack.JPG", "/img/crackapack3.JPG", "/img/crackapack2.JPG"],
-                separate: false,
+                separate: true,
                 tags: ["Node.JS", "ReactJS", "RESTful API", "Bootstrap"],
                 features: [{
                     title: "RESTful API",
