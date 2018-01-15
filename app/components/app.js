@@ -17,7 +17,7 @@ export class App extends React.Component {
                     listArr: [
                         "Comfortable in any CMS tool, especially Wordpress",
                         "Creating customizable themes from scratch",
-                        "Six years experience attracting clients through SEO",
+                        "Five years experience attracting clients through SEO",
                         "Five separate domains at number one in competitive keywords"
                     ]
                 },
@@ -25,25 +25,60 @@ export class App extends React.Component {
                     image: "",
                     title: "Front End",
                     listArr: [
-                        "Javascript: Skills in ReactJS, ES6 and jQuery",
-                        "CSS: Very comfortable using all elements of SASS",
+                        "Javascript: Skills in Angular, React, Vanilla and jQuery",
+                        "CSS: Very comfortable in SASS, or normal CSS",
                         "Bootstrap: Skilled in responsive design, both with and without Bootstrap",
-                        "Compilers: Experience in Babel/Webpack"
+                        "Compilers: Experience in Babel/Webpack and Node.js"
                     ]
                 },
                 {
                     image: "",
                     title: "Back End",
                     listArr: [
-                        "PHP: Basic knowledge of PHP, especially within CMS tools",
+                        "PHP: Basic knowledge of PHP, especially within Wordpress themes and plugins",
                         "MySQL: Experience with storing user data and security practices",
-                        "Java: Basic knowledge within an Android context",
-                        "Passionate about using new frameworks to solve new problems"
+                        "Java: Basic knowledge within an Android context"
                     ]
                 }
             ],
 
             portfolio: [
+                {
+                    title: "Foxglove & Ginger",
+                    desc: "A mouth-watering site for my local Indian restaurant",
+                    imageArr: [
+                        "/img/foxginger1.JPG",
+                        "/img/foxginger2.JPG",
+                        "/img/foxginger3.JPG",
+                        "/img/foxginger4.JPG",
+                        "/img/foxginger5.JPG"
+                    ],
+                    separate: false,
+                    tags: [
+                        "jQuery",
+                        "SASS",
+                        "Node.JS",
+                        "PHP",
+                        "Wordpress"
+                    ],
+                    features: [
+                        {
+                            title: "Animated Menu",
+                            desc: "jQuery and CSS helped create a sleek user experience, from the buttons to the shopping cart.",
+                            image: ""
+                        },
+                        {
+                            title: "PHP Contact Form",
+                            desc: "PHP and AJAX sends the order directly to the restaurant, and asks the user to wait for confirmation.",
+                            image: ""
+                        },
+                        {
+                            title: "Maintainable File Structure",
+                            desc: "Combining Wordpress with ES6 and a Webpack compiler makes for incredibly easy-to-maintain code.",
+                            image: ""
+                        }
+                    ]
+                },
                 {
                     title: "Crack A Pack",
                     desc: "A booster simulator for the Magic: The Gathering community",
@@ -52,7 +87,7 @@ export class App extends React.Component {
                         "/img/crackapack3.JPG",
                         "/img/crackapack2.JPG"
                     ],
-                    separate: true,
+                    separate: false,
                     tags: [
                         "Node.JS",
                         "ReactJS",
@@ -147,40 +182,35 @@ export class App extends React.Component {
                     ]
                 },
                 {
-                    title: "Foxglove & Ginger",
-                    desc: "A mouth-watering site for my local Indian restaurant",
+                    title: "Canary Care (Demo)",
+                    desc: "Fully animated site in AngularJS, hosted on Github.",
                     imageArr: [
-                        "/img/foxginger1.JPG",
-                        "/img/foxginger2.JPG",
-                        "/img/foxginger3.JPG",
-                        "/img/foxginger4.JPG",
-                        "/img/foxginger5.JPG"
+                        "/img/canarycare.gif"
                     ],
-                    separate: false,
+                    separate: true,
                     tags: [
-                        "jQuery",
-                        "SASS",
-                        "Node.JS",
-                        "PHP",
-                        "Wordpress"
+                        "Angular JS",
+                        "Typescript",
+                        "GitHub"
                     ],
                     features: [
                         {
-                            title: "Animated Menu",
-                            desc: "jQuery and CSS helped create a sleek user experience, from the buttons to the shopping cart.",
+                            title: "AngularJS",
+                            desc: "Used an Angular architecture: great for making encapsulated, maintainable components.",
                             image: ""
                         },
                         {
-                            title: "PHP Contact Form",
-                            desc: "PHP and AJAX sends the order directly to the restaurant, and asks the user to wait for confirmation.",
+                            title: "Animations",
+                            desc: "Beautiful CSS animations as the page loads make for a professional, dynamic feel.",
                             image: ""
                         },
                         {
-                            title: "Maintainable File Structure",
-                            desc: "Combining Wordpress with ES6 and a Webpack compiler makes for incredibly easy-to-maintain code.",
+                            title: "Hosted in Github",
+                            desc: "Versioned, hosted, and compiled with Github's integration with AngularJS. Easy as pie.",
                             image: ""
                         }
                     ]
+
                 }
             ]
         }
